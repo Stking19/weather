@@ -1,0 +1,31 @@
+.headerWrapper{
+    width: 62%;
+    height: 50px;
+    background: rgb(0,21,41);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 1.8%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+    color: white;
+}
+.inputhold{
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+.myinput{
+    width: 60%;
+    height: 100%;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(0,21,41);
+}
