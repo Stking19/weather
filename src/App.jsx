@@ -1,6 +1,6 @@
 import React from 'react'
 import SideBar from './components/sidebar/SideBar'
-import { createBrowserRouter, RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/landingpage/Home'
 
 

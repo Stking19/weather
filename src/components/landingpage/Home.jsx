@@ -4,21 +4,28 @@ import { FaThermometerHalf } from "react-icons/fa";
 import { FiWind } from "react-icons/fi";
 import { WiRaindrop } from "react-icons/wi";
 import { CiSun } from "react-icons/ci";
+import { useOutletContext } from "react-router";
 
 const Home = () => {
+  const {weatherData} = useOutletContext();
+  if(!weatherData) {
+    return <div className="wait" ><p style={{fontSize: "18px"}}>Search for a city to get the weather.</p>
+    <img src="https://i.pinimg.com/originals/0e/f3/bb/0ef3bb66d9216fffcea9022628f7bb26.gif" alt="" />
+    </div>
+  }
   return (
     <div className="mainCard">
       <div className="left">
         <div className="first">
           <div className="textWrapper">
             <h3>
-              Lagos <p>Nigeria</p>
+              {weatherData.city} <p>{weatherData.condition}</p>
             </h3>
-            <span>31'</span>
+            <span>{weatherData.temperature}</span>
           </div>
           <div className="imgCon">
             <img
-              src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+              src="src/assets/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
               alt=""
             />
           </div>
@@ -95,14 +102,14 @@ const Home = () => {
               <h5><FaThermometerHalf /></h5>
               <p>
                 Real Feel <br />
-                <span>30'</span>
+                <span>{weatherData.temperature}</span>
               </p>
             </div>
             <div className="feel">
               <h5><FiWind /></h5>
               <p>
                 Wind <br />
-                <span>0.2km/h</span>
+                <span>{weatherData.wind_speed} Km/h</span>
               </p>
             </div>
           </div>
@@ -110,15 +117,15 @@ const Home = () => {
             <div className="feel">
               <h5><WiRaindrop size={25}/></h5>
               <p>
-                Chance of rain <br />
-                <span>0%</span>
+                Humidity <br />
+                <span>{weatherData.humidity}</span>
               </p>
             </div>
             <div className="feel">
               <h5><CiSun size={25}/></h5>
               <p>
                 UV index <br />
-                <span>3</span>
+                <span>_ _</span>
               </p>
             </div>
           </div>

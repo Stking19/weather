@@ -25,12 +25,13 @@ const items = [
     getItem('Japan', '21'),
   ]),
   getItem('Map', 'sub1', <HiMap />),
-  getItem('Settings', 'sub1', <RiSettings5Line />),
+  getItem('Settings', 'sub2', <RiSettings5Line />),
    
 ];
 
 const SideBar = () => {
     const [collapsed, setCollapsed] = useState(false);
+    const [weatherData, setWeatherData] = useState(null)
 
     return (
         <Layout
@@ -44,7 +45,7 @@ const SideBar = () => {
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
       </Sider>
       <Layout>
-        <Header />
+        <Header setWeatherData={setWeatherData}/>
         <Content
           style={{
             margin: '0 16px',
@@ -56,7 +57,7 @@ const SideBar = () => {
               height: 'max-content'
             }}
           >
-            <Outlet />
+            <Outlet context={{weatherData}}/>
           </div>
         </Content>
         <Footer
