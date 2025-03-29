@@ -7,8 +7,15 @@ const Header = ({ setWeatherData }) => {
   const [search, setSearch] = useState("");
 
   const handleSearch = () => {
+    if (search.trim() === "") return;
     getWeatherData(search, setWeatherData);
     setSearch("");
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
   };
 
   return (
@@ -21,6 +28,7 @@ const Header = ({ setWeatherData }) => {
           className="myinput"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          onKeyDown={handleKeyPress}
         />
       </div>
     </div>

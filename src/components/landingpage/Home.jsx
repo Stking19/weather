@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <div className="imgCon">
             <img
-              src="src/assets/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+              src="public/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ const Home = () => {
               <p>6:00 AM</p>
               <span>
                 <img
-                  src="src/assets/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -47,7 +47,7 @@ const Home = () => {
               <p>9:00 AM</p>
               <span>
                 <img
-                  src="src/assets/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -57,7 +57,7 @@ const Home = () => {
               <p>12:00 PM</p>
               <span>
                 <img
-                  src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -67,7 +67,7 @@ const Home = () => {
               <p>3:00 PM</p>
               <span>
                 <img
-                  src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -77,7 +77,7 @@ const Home = () => {
               <p>6:00 PM</p>
               <span>
                 <img
-                  src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -87,7 +87,7 @@ const Home = () => {
               <p>9:00 PM</p>
               <span>
                 <img
-                  src="src/assets/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                  src="public/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                   alt=""
                 />
               </span>
@@ -138,7 +138,7 @@ const Home = () => {
           <h3>
             <span>
               <img
-                src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
+                src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp"
                 alt=""
               />
             </span>
@@ -149,37 +149,37 @@ const Home = () => {
           </k>
         </div>
         <div className="day">
-          <p>Tue</p> <h3><span><img src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span> Sunny</h3>
+          <p>Tue</p> <h3><span><img src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span> Sunny</h3>
           <k>
             <j>37</j>/21
           </k>
         </div>
         <div className="day">
-          <p>Wed</p> <h3><span><img src="src/assets/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Sunny</h3>
+          <p>Wed</p> <h3><span><img src="public/IMG/hot-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Sunny</h3>
           <k>
             <j>37</j>/21
           </k>
         </div>
         <div className="day">
-          <p>Thu</p> <h3><span><img src="src/assets/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Cloudy</h3>
+          <p>Thu</p> <h3><span><img src="public/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Cloudy</h3>
           <k>
             <j>37</j>/21
           </k>
         </div>
         <div className="day">
-          <p>Fri</p> <h3><span><img src="src/assets/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Cloudy</h3>
+          <p>Fri</p> <h3><span><img src="public/IMG/sunny-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Cloudy</h3>
           <k>
             <j>37</j>/21
           </k>
         </div>
         <div className="day">
-          <p>Sat</p> <h3><span><img src="src/assets/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Rainy</h3>
+          <p>Sat</p> <h3><span><img src="public/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Rainy</h3>
           <k>
             <j>37</j>/21
           </k>
         </div>
         <div className="days">
-          <p>Sun</p> <h3><span><img src="src/assets/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Storm</h3>{" "}
+          <p>Sun</p> <h3><span><img src="public/IMG/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.webp" alt="" /></span>Storm</h3>{" "}
           <k>
             <j>37</j>/21
           </k>
