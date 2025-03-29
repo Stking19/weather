@@ -33,7 +33,7 @@
     height: 30%;
     display: flex;
     justify-content: space-between;
-    background-image: url(../../../public/IMG/pexels-pixabay-209831.jpg);
+    background-image: url(/IMG/pexels-pixabay-209831.jpg);
     background-position: center;
     background-size: cover;
     color: white;
